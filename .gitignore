@@ -1,0 +1,13 @@
+# Ignore a single specific file
+secrets.txt
+
+# Ignore an entire folder (always add a trailing slash)
+node_modules/
+dist/
+
+# Ignore all files with a specific extension (using wildcards)
+*.log
+*.env
+
+# Unignore a file (even if it matches a rule above using !)
+!important.log
