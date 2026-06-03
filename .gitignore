@@ -1,13 +1,71 @@
-# Ignore a single specific file
-secrets.txt
+# Dependencies
 
-# Ignore an entire folder (always add a trailing slash)
 node_modules/
-dist/
 
-# Ignore all files with a specific extension (using wildcards)
+# Environment Variables
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+
+logs
 *.log
-*.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Unignore a file (even if it matches a rule above using !)
-!important.log
+# Runtime files
+
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+
+coverage/
+
+# Build folders
+
+dist/
+build/
+
+# Cache
+
+.cache/
+.parcel-cache/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+tmp/
+temp/
+
+# PDF files (optional)
+
+# Uncomment if PDFs are large or private
+
+# *.pdf
+
+# Pinecone / AI generated files
+
+vectors/
+embeddings/
+chunks/
+
+# Package lock (optional)
+
+# package-lock.json
